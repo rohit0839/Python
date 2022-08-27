@@ -51,10 +51,10 @@ str_h3 = ''.join(str(x) for x in all_h3_tags) # list to string
 #     d[key] = val
 #print(d)
 
-# april 21 - jun 22
+# april 21 - present
 
 d = {}
-upi_table1 = soup.find('div', id="innerTabTwoApr22")
+upi_table1 = soup.find('div', id="innerTabTwoJun22")
 for apps in upi_table1.find_all('tbody'):
     rows = apps.find_all('tr')
     for row in rows:
